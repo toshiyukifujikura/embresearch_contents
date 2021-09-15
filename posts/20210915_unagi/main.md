@@ -17,10 +17,10 @@ Copyroght: (C) 2021 Laboratory Design
 
 ## <span id="tokujou">“Áã</span>
 
-![](‘«—˜ì‚µ‚Ü-“Áã.jpg)
+![](./‘«—˜ì‚µ‚Ü-“Áã.jpg)
+‚¯‚Á‚±‚¤œ‚¾‚ç‚¯
 
 ## ƒhƒLƒ…ƒƒ“ƒg
 
-‘«—˜‚¤‚Ü‚¢‚à‚Ì‰ï
 [topmap2.pdf](topmap2.pdf)
-[homepage](http://umaimonokai.ashikaga.info/)
+[‘«—˜‚¤‚Ü‚¢‚à‚Ì‰ï](http://umaimonokai.ashikaga.info/)
