@@ -1,26 +1,26 @@
 ---
-Keywords: ‘«—˜ ‚¤‚È‚¬
+Keywords: è¶³åˆ© ã†ãªãŽ
 Copyroght: (C) 2021 Laboratory Design
 ---
 
-# ‘«—˜‚Ì‚¤‚È‚¬‰®
+# è¶³åˆ©ã®ã†ãªãŽå±‹
 
-ì‚µ‚Ü ‚¤‚È‚¬“X
-§326-0824 “È–ØŒ§‘«—˜Žs”ª”¦’¬‚W‚S‚R
+å·ã—ã¾ ã†ãªãŽåº—
+ã€’326-0824 æ ƒæœ¨çœŒè¶³åˆ©å¸‚å…«å¹¡ç”ºï¼˜ï¼”ï¼“
 +81284712357
 
-* [“Áã‰Vd] (#tokujou)
+* [ç‰¹ä¸Šé°»é‡] (#tokujou)
 
 ## Map
 
 ![Map](./Cap.bmp)
 
-## <span id="tokujou">“Áã</span>
+## <span id="tokujou">ç‰¹ä¸Š</span>
 
-![](./‘«—˜ì‚µ‚Ü-“Áã.jpg)
-‚¯‚Á‚±‚¤œ‚¾‚ç‚¯
+![](./è¶³åˆ©å·ã—ã¾-ç‰¹ä¸Š.jpg)
+ã‘ã£ã“ã†éª¨ã ã‚‰ã‘
 
-## ƒhƒLƒ…ƒƒ“ƒg
+## ãƒ‰ã‚­ãƒ¥ãƒ¡ãƒ³ãƒˆ
 
 [topmap2.pdf](topmap2.pdf)
-[‘«—˜‚¤‚Ü‚¢‚à‚Ì‰ï](http://umaimonokai.ashikaga.info/)
+[è¶³åˆ©ã†ã¾ã„ã‚‚ã®ä¼š](http://umaimonokai.ashikaga.info/)
