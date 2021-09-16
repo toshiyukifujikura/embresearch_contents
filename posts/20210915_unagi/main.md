@@ -1,6 +1,6 @@
 ---
 Keywords: 足利, うなぎ
-Copyroght: (C) 2021 Laboratory Design
+Copyright: (C) 2021 Laboratory Design
 ---
 
 # 足利のうなぎ屋

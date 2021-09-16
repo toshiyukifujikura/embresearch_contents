@@ -1,6 +1,6 @@
 ---
 Keywords: embresearch
-Copyrights: (C) 2021 Laboratory Design
+Copyright: (C) 2021 Laboratory Design
 ---
 
 # Labolatory Design First Post
