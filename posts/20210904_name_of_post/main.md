@@ -1,5 +1,5 @@
 ---
-Keywords: embresearch, formal method, realtime system, embedded system
+Keywords: embresearch portal, formal method, realtime system, embedded system
 Copyright: (C) 2021 Laboratory Design
 ---
 
