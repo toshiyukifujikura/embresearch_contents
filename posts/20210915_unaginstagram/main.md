@@ -1,5 +1,5 @@
 ---
-Keywords: 足利, うなぎ, Twitter, Instagram 
+Keywords: 足利, うなぎ, 川しま, Twitter, Instagram 
 Copyright: (C) 2021 Laboratory Design
 ---
 
