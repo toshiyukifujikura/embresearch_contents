@@ -1,12 +1,11 @@
 ---
-Keywords: embresearch portal, formal method, realtime system, embedded system
+Keywords: web debug
 Copyright: (C) 2021 Laboratory Design
 ---
 
-# Labolatory Design First Post
- Write contents here.
+# Portal Log
 
-sample md
 2021-09-17 fetchのバグ修正，正規表現の間違い
-2021-09-18 最近の記事一覧を作成
+
+2021-09-19 最近の記事一覧を作成
 
