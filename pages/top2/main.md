@@ -1,5 +1,5 @@
 ---
-Keywords: embresearch, bash
+Keywords: embresearch bash
 Copyright: (C) 2021 Laboratory Design
 ---
 

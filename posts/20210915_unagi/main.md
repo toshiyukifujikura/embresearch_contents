@@ -1,5 +1,5 @@
 ---
-Keywords: 足利, うなぎ, 川しま
+Keywords: 足利 うなぎ 川しま
 Copyright: (C) 2021 Laboratory Design
 ---
 
