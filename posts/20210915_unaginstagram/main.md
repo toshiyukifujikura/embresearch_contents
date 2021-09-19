@@ -3,11 +3,7 @@ Keywords: 足利 うなぎ 川しま Twitter Instagram
 Copyright: (C) 2021 Laboratory Design
 ---
 
-# 足利のうなぎ
-
-## Twitter
-
-<blockquote class="twitter-tweet" data-dnt="true"><p lang="ja" dir="ltr">足利市川しまの鰻重 <a href="https://t.co/qyD9TKFuFk">pic.twitter.com/qyD9TKFuFk</a></p>&mdash; T.Fujikura - うふふのふ (@tfujikura) <a href="https://twitter.com/tfujikura/status/1438120328794836996?ref_src=twsrc%5Etfw">September 15, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+# 単なるめも書き
 
 ## 浦和たんたん房の担々麺
 
