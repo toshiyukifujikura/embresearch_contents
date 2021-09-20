@@ -5,6 +5,10 @@ Copyright: (C) 2021 Laboratory Design
 
 # 単なるめも書き
 
+##足利川しまのうなぎ
+
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">特上 <a href="https://t.co/hvi1FzPSfj">pic.twitter.com/hvi1FzPSfj</a></p>&mdash; emblabo65 (@emblabo65) <a href="https://twitter.com/emblabo65/status/1439793280854618116?ref_src=twsrc%5Etfw">September 20, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 ## 浦和たんたん房の担々麺
 
 <blockquote class="twitter-tweet"><p lang="und" dir="ltr"><a href="https://t.co/U03xG2f1d1">pic.twitter.com/U03xG2f1d1</a></p>&mdash; emblabo65 (@emblabo65) <a href="https://twitter.com/emblabo65/status/1438165561670717446?ref_src=twsrc%5Etfw">September 15, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
