@@ -1,5 +1,5 @@
 ---
-Keywords: formalmethod embeddedsystems, realtimesystem
+Keywords: formal method, embedded systems, realtime system
 Copyright: (C) 2021 Laboratory Design
 ---
 
