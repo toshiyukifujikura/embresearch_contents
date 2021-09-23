@@ -1,5 +1,5 @@
 ---
-Keywords: web debug, are, kore, iroiro, 日曜日, お天気, 珈琲
+Keywords: log
 Copyright: (C) 2021 Laboratory Design
 ---
 
