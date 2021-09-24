@@ -12,7 +12,8 @@ Copyright: (C) 2021 Laboratory Design
 
 # Reference
 
-[CMS参考書]  
+[CMS参考情報]  
 1.[bashcms2リポジトリ](https://github.com/ryuichiueda/bashcms2)  
 2.[bashcms2作者のブログ](https://blog.ueda.tech)  
-3.[フルスクラッチから1日でCMSを作る シェルスクリプト高速開発手法入門 改訂2版](https://www.amazon.co.jp/gp/product/4048930699/ref=ppx_yo_dt_b_asin_image_o04_s01?ie=UTF8&psc=1)  
+3.[フルスクラッチから1日でCMSを作る シェルスクリプト高速開発手法入門](https://www.amazon.co.jp/gp/product/4048930699/ref=ppx_yo_dt_b_asin_image_o04_s01?ie=UTF8&psc=1)  
+
