@@ -19,3 +19,9 @@ Copyright: (C) 2021 Laboratory Design
 ## Bootstrap情報  
 1.[bootstrap](https://getbootstrap.jp/)
 2.[examples](https://www.kadokawa.co.jp/product/301905000145/)
+3.[BootstrapCDN](https://www.bootstrapcdn.com/)
+
+https://getbootstrap.com/docs/5.1/examples/jumbotron/jumbotron.css
+
+https://getbootstrap.com/docs/4.3/examples/jumbotron/
+
