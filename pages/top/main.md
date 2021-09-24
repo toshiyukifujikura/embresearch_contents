@@ -1,9 +1,12 @@
 ---
-Keywords: formal method, embedded systems, realtime system
-Copyright: (C) 2021 Laboratory Design
+Keywords: 形式手法, 組込, 実時間処理, formal, embedded, realtime  
+Copyright: (C) 2021 Laboratory Design  
 ---
 
-# Laboratory Design Portal Site
+# Laboratory Design
+ラボラトリデザインは  
 
-絶賛作成中
-まもなく開設，乞うご期待
+- 形式手法を利用した組込システムの研究・開発支援  
+- リアルタイムシステムの設計検証の研究・開発支援  
+
+等をゆるくやっております．

@@ -1,11 +1,23 @@
 ---
-Keywords: web debug, are, kore, iroiro, 日曜日, お天気, 珈琲
-Copyright: (C) 2021 Laboratory Design
+Keywords: log, bashcms2, リポジトリ, CMS  
+Copyright: (C) 2021 Laboratory Design  
 ---
 
-# Portal Log
+# Portal Log  
+- 2021-09-17 fetchのバグ修正，正規表現の間違い   
+- 2021-09-18 最近の記事一覧を作成  
+- 2021-09-19 keyword検索追加，リスト化  
+- 2021-09-20 全文検索  
+- 2021-0924 bootstrap利用
 
-- 2021-09-17 fetchのバグ修正，正規表現の間違い
-- 2021-09-18 最近の記事一覧を作成 
-- 2021-09-19 keyword検索追加，リスト化
-- 2021-09-20 全文検索
+# Reference  
+## CMS参考情報  
+1.[bashcms2リポジトリ](https://github.com/ryuichiueda/bashcms2)  
+2.[bashcms2作者のブログ](https://blog.ueda.tech)  
+3.[フルスクラッチから1日でCMSを作る シェルスクリプト高速開発手法入門](https://www.kadokawa.co.jp/product/301905000145/)  
+
+## Bootstrap情報  
+1.[bootstrap](https://getbootstrap.jp/)  
+2.[examples](https://www.kadokawa.co.jp/product/301905000145/)  
+3.[BootstrapCDN](https://www.bootstrapcdn.com/)  
+
