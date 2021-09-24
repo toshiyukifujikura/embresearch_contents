@@ -1,5 +1,5 @@
 ---
-Keywords: 形式手法, 組込，実時間処理, formal, embedded, realtime  
+Keywords: 形式手法, 組込, 実時間処理, formal, embedded, realtime  
 Copyright: (C) 2021 Laboratory Design  
 ---
 
