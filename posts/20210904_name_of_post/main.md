@@ -1,5 +1,5 @@
 ---
-Keywords: log, bashcms2, リポジトリ，CMS  
+Keywords: log, bashcms2, リポジトリ, CMS  
 Copyright: (C) 2021 Laboratory Design  
 ---
 
@@ -8,7 +8,7 @@ Copyright: (C) 2021 Laboratory Design
 - 2021-09-18 最近の記事一覧を作成  
 - 2021-09-19 keyword検索追加，リスト化  
 - 2021-09-20 全文検索  
-
+- 2021-0924 bootstrap利用
 
 # Reference  
 ## CMS参考情報  
@@ -17,11 +17,7 @@ Copyright: (C) 2021 Laboratory Design
 3.[フルスクラッチから1日でCMSを作る シェルスクリプト高速開発手法入門](https://www.kadokawa.co.jp/product/301905000145/)  
 
 ## Bootstrap情報  
-1.[bootstrap](https://getbootstrap.jp/)
-2.[examples](https://www.kadokawa.co.jp/product/301905000145/)
-3.[BootstrapCDN](https://www.bootstrapcdn.com/)
-
-https://getbootstrap.com/docs/5.1/examples/jumbotron/jumbotron.css
-
-https://getbootstrap.com/docs/4.3/examples/jumbotron/
+1.[bootstrap](https://getbootstrap.jp/)  
+2.[examples](https://www.kadokawa.co.jp/product/301905000145/)  
+3.[BootstrapCDN](https://www.bootstrapcdn.com/)  
 
