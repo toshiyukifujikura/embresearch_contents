@@ -14,5 +14,8 @@ Copyright: (C) 2021 Laboratory Design
 ## CMS参考情報  
 1.[bashcms2リポジトリ](https://github.com/ryuichiueda/bashcms2)  
 2.[bashcms2作者のブログ](https://blog.ueda.tech)  
-3.[フルスクラッチから1日でCMSを作る シェルスクリプト高速開発手法入門](https://b.ueda.tech/?page=bashcms2)  
+3.[フルスクラッチから1日でCMSを作る シェルスクリプト高速開発手法入門](https://www.kadokawa.co.jp/product/301905000145/)  
 
+## Bootstrap情報  
+1.[bootstrap](https://getbootstrap.jp/)
+2.[examples](https://www.kadokawa.co.jp/product/301905000145/)
