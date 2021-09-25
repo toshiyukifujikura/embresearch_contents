@@ -3,7 +3,7 @@ Keywords: 足利, うなぎ, 川しま
 Copyright: (C) 2021 Laboratory Design
 ---
 
-# うなぎ
+# 最近のうなぎ
 
 ## 足利 川しまの鰻重
 
