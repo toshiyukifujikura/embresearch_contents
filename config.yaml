@@ -12,8 +12,8 @@ links:
 sociallinks:
 - icon: 'fa-twitter-square'
   href: 'https://twitter.com/emblabo65'
-- icon: 'fa-youtube-square'
-  href: 'https://www.youtube.com/'
+#- icon: 'fa-youtube-square'
+#  href: 'https://www.youtube.com/'
 - icon: 'fa-github-square'
   href: 'https://github.com/'
 - icon: 'fa-graduation-cap'
