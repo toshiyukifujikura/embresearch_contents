@@ -22,3 +22,7 @@ sociallinks:
   href: 'https://www.slideshare.net/tfujikura'
 - icon: 'fa-facebook-squar'
   href: 'https://www.facebook.com/tfujikura/'
+
+twitter:
+- account: 'tfujikura'
+facebook: '@'
