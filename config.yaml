@@ -25,6 +25,6 @@ sociallinks:
 - icon: 'fa-facebook-squar'
   href: 'https://www.facebook.com/tfujikura/'
 
-facebook: '@'
+#facebook: '@'
 twitter: 'tfujikura'
 line: '@'
