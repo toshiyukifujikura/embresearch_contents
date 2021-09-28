@@ -3,7 +3,7 @@ Keywords: 形式手法, 組込, 実時間処理, formal, embedded, realtime
 Copyright: (C) 2021 Laboratory Design  
 ---
 
-# Embedded Research
+# 組込ソフトよろず相談承り
 ラボラトリデザインは，数理的アプローチにより組込システムに対する以下の項目の研究開発支援をおこなっています．
 
 - 要求仕様の形式化による検証
