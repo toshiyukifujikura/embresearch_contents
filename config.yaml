@@ -11,6 +11,9 @@ links:
   href: 'https://tfujikura.blogspot.com/'
 - text: '楽屋'
   href: '/?post=20210904_name_of_post'
+- text: 'POST'
+  href: /?page=post'
+
 sociallinks:
 - icon: 'fa-twitter-square'
   href: 'https://twitter.com/emblabo65'
