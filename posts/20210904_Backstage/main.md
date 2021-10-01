@@ -1,28 +1,28 @@
 ---
-Keywords: モデル検査, SPIN  
+Keywords: log, bashcms2, リポジトリ, CMS  
 Copyright: (C) 2021 Laboratory Design  
 ---
 
-# SPINの課題
+# Portalの楽屋裏
 
-おそらく日本で利用者の多いモデル検査ツールはSPINだと思われる．SPINの特徴は，モデルの記述がC言語ライクなことであり，その結果以下の様なメリットがある．
-
-- プログラマには取っ付き易い
-- ソースコードからモデルを作って問題点を検証し易い
-
-ソースコードレベルのデバッグには良いかも知れないが，一般的に恐ろしく長いログを読まなければならない．また，複数のプロセスを記述した場合，そのプロセスの動き方がデバッグ対象のシステムにおけるプロセスあるいはタスクと同一か，割込ハンドラと同一なのか，ハードウェアコンポーネントも含んでいる場合並列性は記述できているのかを慎重に検討しなければならない．ここが曖昧だと，システムをデバッグしているのかSPINモデルをデバッグしているのか分からなくなる．首尾良くSPIN上で問題が解決しても，「だから何?」と言うことになる．SPINでは，問題を発見できたらそれ以降はSPIN以外で問題解決した方が良い場合が多い．それは，動作モデルが対象システムとは異なっているからである．また，問題が発見できなくても，それは対象システムに問題が無いことを示してはいない．やはり動作モデルが異なるからである．SPINを利用する場合の課題としては，
-
-- ソースコードより抽象度の高い情報とSPINモデルをリンクさせること
-- 開発対象の動作モデルと整合性を取ること
-
-が必要となる．
-
-## 上流工程が無いこと
+- 2021-09-17 fetchの修正   
+- 2021-09-18 最近の記事一覧を作成  
+- 2021-09-19 keyword検索追加，リスト化  
+- 2021-09-20 全文検索導入  
+- 2021-09-24 bootstrap利用  
+- 2021-09-25 SNS接続
 
 
-## 動作モデルについて
-
+## CMS参考情報  
+これらを参考にホームページを構築しました．  
+1.[bashcms2リポジトリ](https://github.com/ryuichiueda/bashcms2)  
+2.[bashcms2作者のブログ](https://blog.ueda.tech)  
+3.[フルスクラッチから1日でCMSを作る シェルスクリプト高速開発手法入門](https://www.kadokawa.co.jp/product/301905000145/)  
 
 ## 関連情報  
-1.[SPIN](https://github.com/nimble-code/Spin)  
-
+利用したコンポーネント等です．  
+1.[bootstrap](https://getbootstrap.jp/)  
+2.[examples](https://www.kadokawa.co.jp/product/301905000145/)  
+3.[BootstrapCDN](https://www.bootstrapcdn.com/)  
+4.[Font Awesome](https://fontawesome.com/v5.15/icons?d=gallery&p=2)
+5.[Open usp Tukubai](https://github.com/usp-engineers-community/Open-usp-Tukubai)
