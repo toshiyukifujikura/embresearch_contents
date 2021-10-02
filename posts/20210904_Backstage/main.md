@@ -21,7 +21,7 @@ Copyright: (C) 2021 Laboratory Design
 3.[フルスクラッチから1日でCMSを作る シェルスクリプト高速開発手法入門](https://www.kadokawa.co.jp/product/301905000145/)  
 
 ## 関連情報  
-利用したコンポーネント等です．  
+利用したコンポーネント，サイト等です．  
 1.[bootstrap](https://getbootstrap.jp/)  
 2.[examples](https://www.kadokawa.co.jp/product/301905000145/)  
 3.[BootstrapCDN](https://www.bootstrapcdn.com/)  
