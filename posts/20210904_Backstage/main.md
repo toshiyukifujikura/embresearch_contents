@@ -26,5 +26,5 @@ Copyright: (C) 2021 Laboratory Design
 2.[examples](https://www.kadokawa.co.jp/product/301905000145/)  
 3.[BootstrapCDN](https://www.bootstrapcdn.com/)  
 4.[Font Awesome](https://fontawesome.com/v5.15/icons?d=gallery&p=2)  
-5.[Open usp Tukubai](https://github.com/usp-engineers-community/Open-usp-Tukubai)
+5.[Open usp Tukubai](https://github.com/usp-engineers-community/Open-usp-Tukubai)  
 6.[Mail](https://www.eqq.jp/kw/ubuntu-mail.html)  
