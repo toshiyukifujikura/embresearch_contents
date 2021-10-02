@@ -11,7 +11,8 @@ Copyright: (C) 2021 Laboratory Design
 - 2021-09-20 全文検索導入  
 - 2021-09-24 bootstrap利用  
 - 2021-09-25 SNS接続
-
+- 2021-10-01 コメント欄開設  
+- 2021-10-02 mailサービス開始  
 
 ## CMS参考情報  
 これらを参考にホームページを構築しました．  
@@ -26,3 +27,4 @@ Copyright: (C) 2021 Laboratory Design
 3.[BootstrapCDN](https://www.bootstrapcdn.com/)  
 4.[Font Awesome](https://fontawesome.com/v5.15/icons?d=gallery&p=2)  
 5.[Open usp Tukubai](https://github.com/usp-engineers-community/Open-usp-Tukubai)
+6.[Mail](https://www.eqq.jp/kw/ubuntu-mail.html)  
