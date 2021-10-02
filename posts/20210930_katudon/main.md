@@ -1,5 +1,5 @@
 ---
-Keywords: 浦和, カツ丼 
+Keywords: 浦和, カツ丼, ヒレカツ, 牡蠣フライ 
 Copyright: (C) 2021 Laboratory Design
 ---
 
