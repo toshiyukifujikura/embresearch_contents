@@ -28,3 +28,4 @@ UMLやSysMLの状態図の状態は人間が定義した恣意的なものであ
 ## 関連情報  
 1.[CBMC](https://www.cprover.org/cbmc/)  
 2.[Systems and Software Verification: Model-Checking Techniques and Tools](https://amzn.to/3FmU9xG)
+<a href="https://www.amazon.co.jp/Systems-Software-Verification-Model-Checking-Techniques/dp/3540415238?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&dchild=1&keywords=Systems+and+Software+Verification&qid=1633521647&sr=8-1&linkCode=li2&tag=tfujikura-22&linkId=e47325a66c1384fb5dc0e29db6b8a9ab&language=ja_JP&ref_=as_li_ss_il" target="_blank"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=3540415238&Format=_SL160_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=tfujikura-22&language=ja_JP" ></a><img src="https://ir-jp.amazon-adsystem.com/e/ir?t=tfujikura-22&language=ja_JP&l=li2&o=9&a=3540415238" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
