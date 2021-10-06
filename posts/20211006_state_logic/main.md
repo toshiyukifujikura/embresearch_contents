@@ -11,7 +11,12 @@ UMLやSysMLの状態図の状態は人間が定義した恣意的なものであ
 
 ## イベントとアクション
 ソフトウェアの状態を構成しているもの(変数等)に許される基本操作(アクション)やこれらの変化を伴うイベントごとに1つの状態遷移が対応する．と考えることでソフトウェアをオートマトンとしてモデル化できる．  
-簡単なサンプルを考える[2]．3っのキーA, B, Cがあって，このキーをABAの順に押せばドアが開くとする．このソフトは以下の様にモデル化できる．
+簡単なサンプルを考える[2]．3っのキーA, B, Cがあって，このキーをABAの順に押せばドアが開くとする．このソフトは以下の様にモデル化できる．このモデルで，ドアが開いていると言う状態は状態4で成立する．それは，初期状態1からABAのイベントシーケンスで到達するからである．状態と命題とのマッピングで言えば，状態4は「ドアが開いている」と言う命題が真であることに対応している．その他の状態はこの命題の偽に対応している．では，状態1, 2, 3を識別するのはどの様な命題だろうか．
+
+- P_{A}  
+- P_{B}  
+- P_{C}  
+
 
 <!--
 ![Fig. 1.3](./Fig1-3.jpg "カギモデル"){ width=60px }  
@@ -28,4 +33,4 @@ UMLやSysMLの状態図の状態は人間が定義した恣意的なものであ
 ## 関連情報  
 1.[CBMC](https://www.cprover.org/cbmc/)  
 2.[Systems and Software Verification: Model-Checking Techniques and Tools](https://amzn.to/3FmU9xG)  
-<a href="https://www.amazon.co.jp/Systems-Software-Verification-Model-Checking-Techniques/dp/3540415238?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&dchild=1&keywords=Systems+and+Software+Verification&qid=1633521647&sr=8-1&linkCode=li2&tag=tfujikura-22&linkId=e47325a66c1384fb5dc0e29db6b8a9ab&language=ja_JP&ref_=as_li_ss_il" target="_blank"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=3540415238&Format=_SL160_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=tfujikura-22&language=ja_JP" ></a><img src="https://ir-jp.amazon-adsystem.com/e/ir?t=tfujikura-22&language=ja_JP&l=li2&o=9&a=3540415238" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+<!-- a href="https://www.amazon.co.jp/Systems-Software-Verification-Model-Checking-Techniques/dp/3540415238?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&dchild=1&keywords=Systems+and+Software+Verification&qid=1633521647&sr=8-1&linkCode=li2&tag=tfujikura-22&linkId=e47325a66c1384fb5dc0e29db6b8a9ab&language=ja_JP&ref_=as_li_ss_il" target="_blank"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=3540415238&Format=_SL160_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=tfujikura-22&language=ja_JP" ></a><img src="https://ir-jp.amazon-adsystem.com/e/ir?t=tfujikura-22&language=ja_JP&l=li2&o=9&a=3540415238" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" / -->
