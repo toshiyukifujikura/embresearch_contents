@@ -42,7 +42,7 @@ SPINは極端に言えば，promelaソースコードから始まる．あるい
 
 以上，2点がSPINを利用する上で考慮すべき点であると認識している．
 
-
 ## 関連情報  
 1.[SPIN](https://github.com/nimble-code/Spin)  
+2.[SPIN Model Checker, The: Primer and Reference Manual](https://amzn.to/3FkJUKj)
 
