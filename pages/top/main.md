@@ -13,5 +13,5 @@ Copyright: (C) 2021 Laboratory Design
 - システムテストシナリオ生成
 
 モデル検査は振る舞いの正しさを立証するの欠かせない，強力な手法ですがモデル検査用のモデルをどう作るかがネックになります．我々は，要求から演繹的に検査用モデルを生成します．
-ご興味のある方は [support@embresearch.com](<mailto:support@embresearch.com>) までお問い合わせください．
+ご興味のある方は ![サポート](./support_2.jpg) までお問い合わせください．
 
