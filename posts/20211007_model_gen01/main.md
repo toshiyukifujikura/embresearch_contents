@@ -22,5 +22,5 @@ LTSAというモデル検査を用いてベースモデルを作る．
 
 ## 関連情報  
 1.[Systems and Software Verification: Model-Checking Techniques and Tools](https://amzn.to/3FmU9xG)  
-2.[LTSA](https://www.doc.ic.ac.uk/ltsa/)
-2.[Concurrency: State Models and Java Programs](https://amzn.to/3mxg3Wj)
+2.[LTSA](https://www.doc.ic.ac.uk/ltsa/)  
+3.[Concurrency: State Models and Java Programs](https://amzn.to/3mxg3Wj)
