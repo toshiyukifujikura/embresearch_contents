@@ -7,6 +7,12 @@ Copyright: (C) 2021 Laboratory Design
 
 最近，頂いたラーメンについて．
 
+## 埼大通り，二郎系ラーメン梵's  
+やさいマシマシにしないと，昔の迫力は無くなった感じ．
+太ちぢれ麺が結構うまい．
+
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">埼大通り、二郎系ラーメン梵’s <a href="https://t.co/AtWIn8w6U4">pic.twitter.com/AtWIn8w6U4</a></p>&mdash; emblabo65 (@emblabo65) <a href="https://twitter.com/emblabo65/status/1446356589938544640?ref_src=twsrc%5Etfw">October 8, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 ## 足利 桂林
 手打ち麺がのめっこい．
 
