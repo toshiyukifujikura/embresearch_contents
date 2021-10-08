@@ -6,7 +6,7 @@ Copyright: (C) 2021 Laboratory Design
 # 検査用モデルの作り方  
 [1]に紹介されているプリンタマネージャの動作モデルを以下に示す．このモデルは，二人のユーザA, Bが一つのプリンタを共有している際のプリンタの動作モデルである．プリンタの基本的な動作としては，req, beg, endがある．reqはプリント要求受付，begはプリント開始，endはプリント終了．ユーザ毎にアクションを識別していて，たとえば req<sub>A</sub> は，ユーザAのプリント要求受付である．P, W, Rは命題で，どちらかと言うとユーザーの状態を表す．Pはプリントが終了するのを待っている，Wはプリントが始まるのを待っている，Rは特に要がない状態を表す．[状態の意味](https://embresearch.com/?post=20211006_state_logic)で説明したように，状態の意味は命題で表す．Rはreqする前の状態，Wはbegの前，Pはbegの後でendの前に対応している．Fig.1.6では状態を表す円の中に，そこで成立する命題が書き込んである．
 
-<img src="Fig1-6.jpg" title="A printer manager" width=100%>  
+<img src="Fig1-6.jpg" title="A printer manager" width=70%>  
 [1]のFig. 1.6.より  
 
 
@@ -80,13 +80,13 @@ constraint C0 = C0
 <img src="C0.jpg" title="A printer manager" width=50%>  
 制約状態マシン  
 
-
+assert文は，「命題PAとPBが同時に真になることは無い」という意味である．これは，時相論理式と呼ばれる論理的で，排他制御の典型的なパターンである．PAやPBはその上のfluent文で定義している．たとえば，Paは，アクションa.begを実行すると真になり，a.endを実行すると偽になるという意味である．
 
 ## まとめ  
-モデル検査用のモデルを生成する方法を説明した．
+モデル検査用のモデルを生成する方法を説明した．状態分析は必要だけれども状態数が多くなると辛いので，簡単なケースで実施して制約条件として記述した方が良い．制約条件からの而ドア生成であればユーザー数が増えた場合でも容易に拡張することができる．
 
 ## 関連情報  
 1.[Systems and Software Verification: Model-Checking Techniques and Tools](https://amzn.to/3FmU9xG)  
 2.[LTSA](https://www.doc.ic.ac.uk/ltsa/)  
-3.[Concurrency: State Models and Java Programs](https://amzn.to/3mxg3Wj)
+3.[Concurrency: State Models and Java Programs](https://amzn.to/3mxg3Wj)  
 4.[使用したLTSAモデル](printer.lts)
