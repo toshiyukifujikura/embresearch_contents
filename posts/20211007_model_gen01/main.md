@@ -28,12 +28,17 @@ Printer = (req-> beg -> end -> Printer).
 
 とするとA,Bが利用しているシステムの振る舞いが生成出来る．
 
+
+<img src="PSys.pct" title="A printer manager" width=70%>  
+PSys状態図
+
+
 ## 状態分析
 
 [状態の意味](https://embresearch.com/?post=20211006_state_logic)で説明した手法でベースモデルで生成されている状態を分析する．
 
 ## まとめ  
-
+モデル検査用のモデルを生成する方法を説明した．
 
 ## 関連情報  
 1.[Systems and Software Verification: Model-Checking Techniques and Tools](https://amzn.to/3FmU9xG)  
