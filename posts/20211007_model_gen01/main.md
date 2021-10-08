@@ -30,12 +30,57 @@ Printer = (req-> beg -> end -> Printer).
 
 
 <img src="PSys.jpg" title="A printer manager" width=100%>  
-PSys状態図
+PSysのLTSA出力  
 
+この状態図をFig.1.6と比べると1つ状態が多い．
 
 ## 状態分析
 
-[状態の意味](https://embresearch.com/?post=20211006_state_logic)で説明した手法でベースモデルで生成されている状態を分析する．
+[状態の意味](https://embresearch.com/?post=20211006_state_logic)で説明した手法でベースモデルで生成されている状態を分析する．LTSAには状態図をテキストで出力する機能があるのでそれを利用すると以下の様に，状態とその間の遷移が得られる．ここの各状態に，各命題の真偽をマップすることで動作モデルの厳密な解釈をすることが出来る．すなわち，状態分析がやりやすくなる．
+
+```
+PSys = Q0,
+	Q0	= (b.req -> Q1		// 要求待ち
+		  |a.req -> Q8),
+	Q1	= (b.beg -> Q2		// bからの要求受付
+		  |a.req -> Q7),
+	Q2	= (b.end -> Q0		// bのprint中
+		  |a.req -> Q3),
+	Q3	= (a.beg -> Q4		// この遷移ダメ, bのprint中だから
+		  |b.end -> Q8),
+	Q4	= (a.end -> Q2  	// 多重プリント，この状態は存在しない．
+		  |b.end -> Q5),
+	Q5	= (a.end -> Q0
+		  |b.req -> Q6),
+	Q6	= (a.end -> Q1
+		  |b.beg -> Q4),		// この遷移ダメ, aのプリント中だから
+	Q7	= (b.beg -> Q3		// aのprint中, bからの要求受付
+		  |a.beg -> Q6),
+	Q8	= (a.beg -> Q5		// aからの要求受付
+		  |b.req -> Q7).
+```
+
+各状態を調べるとQ4が同時に印刷をしている状態ことが分かる．実際に，Q4とQ4への遷移を削除して状態図を生成すればFig.1.6と同一の状態図が得られる．修正したモデルを[4]からダウンロードするとPSys3がFig.1.6と同一のモデルになっている．
+
+## 自動生成  
+状態分析することで単純な合成では何故ダメなのか，Fig.1.6はどの様に作ったのかが分かったが，状態分析は結構面倒なので自動生成することを検討する．プリンタの排他制御が必要なので，制約条件として追加してやれば良い．具体的には以下の様にして制約条件を定義してそれを表す状態図を生成してベースモデルと合成すれば良い．
+
+```
+fluent Pa = <a.beg, a.end> initially 0
+fluent Pb = <b.beg, b.end> initially 0
+
+assert C0 = []!(Pa && Pb)
+constraint C0 = C0
+
+||PsysM2 = (PSys||C0).
+```
+
+生成される制約状態マシンは以下の様になる．
+
+<img src="C0.jpg" title="A printer manager" width=50%>  
+制約状態マシン  
+
+
 
 ## まとめ  
 モデル検査用のモデルを生成する方法を説明した．
@@ -44,3 +89,4 @@ PSys状態図
 1.[Systems and Software Verification: Model-Checking Techniques and Tools](https://amzn.to/3FmU9xG)  
 2.[LTSA](https://www.doc.ic.ac.uk/ltsa/)  
 3.[Concurrency: State Models and Java Programs](https://amzn.to/3mxg3Wj)
+4.[使用したLTSAモデル](printer.lts)

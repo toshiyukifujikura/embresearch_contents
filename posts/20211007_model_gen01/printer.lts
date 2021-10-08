@@ -12,14 +12,14 @@ PSys2 = Q0,
 		  |a.req -> Q7),
 	Q2	= (b.end -> Q0		// bのprint中
 		  |a.req -> Q3),
-	Q3	= (a.beg -> Q4		// これダメ, bのprint中だから
+	Q3	= (a.beg -> Q4		// この遷移ダメ, bのprint中だから
 		  |b.end -> Q8),
 	Q4	= (a.end -> Q2  	// 多重プリント，この状態は存在しない．
 		  |b.end -> Q5),
 	Q5	= (a.end -> Q0
 		  |b.req -> Q6),
 	Q6	= (a.end -> Q1
-		  |b.beg -> Q4),	// これダメ, aのプリント中だから
+		  |b.beg -> Q4),		// この遷移ダメ, aのプリント中だから
 	Q7	= (b.beg -> Q3		// aのprint中, bからの要求受付
 		  |a.beg -> Q6),
 	Q8	= (a.beg -> Q5		// aからの要求受付
