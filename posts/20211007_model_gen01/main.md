@@ -29,7 +29,7 @@ Printer = (req-> beg -> end -> Printer).
 とするとA,Bが利用しているシステムの振る舞いが生成出来る．
 
 
-<img src="PSys.pct" title="A printer manager" width=70%>  
+<img src="PSys.png" title="A printer manager" width=70%>  
 PSys状態図
 
 
