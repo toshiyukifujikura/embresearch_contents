@@ -1,3 +1,5 @@
+// utf-8を使用，ツールではs-jis
+//
 Printer = (req-> beg -> end -> Printer).
 
 ||PSys = ({a,b}:Printer).
