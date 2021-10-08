@@ -6,7 +6,7 @@ Copyright: (C) 2021 Laboratory Design
 # 検査用モデルの作り方  
 [1]に紹介されているプリンタマネージャの動作モデルを以下に示す．このモデルは，二人のユーザA, Bが一つのプリンタを共有している際のプリンタの動作モデルである．プリンタの基本的な動作としては，req, beg, endがある．reqはプリント要求受付，begはプリント開始，endはプリント終了．ユーザ毎にアクションを識別していて，たとえば req<sub>A</sub> は，ユーザAのプリント要求受付である．P, W, Rは命題で，どちらかと言うとユーザーの状態を表す．Pはプリントが終了するのを待っている，Wはプリントが始まるのを待っている，Rは特に要がない状態を表す．[状態の意味](https://embresearch.com/?post=20211006_state_logic)で説明したように，状態の意味は命題で表す．Rはreqする前の状態，Wはbegの前，Pはbegの後でendの前に対応している．Fig.1.6では状態を表す円の中に，そこで成立する命題が書き込んである．
 
-<img src="Fig1-6.jpg" title="A printer manager" width=70%>  
+<img src="Fig1-6.jpg" title="A printer manager" width=100%>  
 [1]のFig. 1.6.より  
 
 
@@ -29,7 +29,7 @@ Printer = (req-> beg -> end -> Printer).
 とするとA,Bが利用しているシステムの振る舞いが生成出来る．
 
 
-<img src="PSys.jpg" title="A printer manager" width=70%>  
+<img src="PSys.jpg" title="A printer manager" width=100%>  
 PSys状態図
 
 
