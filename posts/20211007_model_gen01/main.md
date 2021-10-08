@@ -16,15 +16,15 @@ Copyright: (C) 2021 Laboratory Design
 ## ベースモデル
 LTSA[2][3]というモデル検査ツールを用いて[ベースモデル](printer.lts)を作る．プリンタの基本動作は，req, beg, endの繰り返しなので，
 
-'''
+```
 Printer = (req-> beg -> end -> Printer).
-'''
+```
 
 となる．AとBで利用するので，
 
-'''
+```
 ||PSys = ({a,b}:Printer).
-'''
+```
 
 とするとA,Bが利用しているシステムの振る舞いが生成出来る．
 
