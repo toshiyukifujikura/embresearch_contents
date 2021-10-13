@@ -62,8 +62,6 @@ PSys = Q0,
 
 各状態を調べるとQ4が同時に印刷をしている状態ことが分かる．実際に，Q4とQ4への遷移を削除して状態図を生成すればFig1.6と同一の状態図が得られる．修正したモデルを[4]からダウンロードするとPSys3がFig1.6と同一のモデルになっている．LTSAのグラフィク機能を拡張したDelforge[5]でFig1.6と同様の配置にしたものを以下に示す．  
 
-<img src="output.svg" title="A printer manager" width=100%>  
-[5]Delforgeの出力  
 ![Delforgeの出力](output2.svg)
 
 ## 自動生成  
