@@ -1,0 +1,16 @@
+assert ALTL2 = []( unblank -> ( ! tune W blank ))
+assert ALTL1 = []( tune -> (!unblank W endtune))
+constraint ALTL2 = ALTL2
+constraint ALTL1 = ALTL1
+
+
+
+assert ALTL = []( unblank -> ( ! tune W blank ) && ( tune -> (!unblank W endtune)))
+constraint ALTL = ALTL
+
+fluent TUNING = <tune, endtune> initially 0
+fluent BLANKED = <blank, unblank> initially 1
+assert SLTL = [](TUNING -> BLANKED)
+constraint SLTL = SLTL
+
+// minimal ||MSLTS = (SLTL). “¯‚¶
