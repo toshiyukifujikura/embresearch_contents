@@ -3,7 +3,7 @@ Keywords: 時相論理式, Buchiオートマタ
 Copyright: (C) 2021 Laboratory Design  
 ---
 
-# 時相論理式とBuchiオートマタ  
+# 時相論理式とBuchiオートマタ(工事中)  
 
 
 ## ABA, GBA, BA  
